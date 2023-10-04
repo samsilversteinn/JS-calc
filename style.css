@@ -1,41 +1,145 @@
-body {
-    background: black;
+/*Navbar*/
+.navbar-nav .nav-link.active,.navbar-nav .nav-link.show {
+    color:#10C9C3;
+    font-family: 'Montserrat', sans-serif;
 }
-.container {
-    background: black; 
-    margin: 0px;
+.active {
+    color: #10C9C3 !important;
 }
-.entry{
-    width: 100%;
-    height: 50px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px 2px;
-    font-size: 16px;
-    font-weight: bold;
+.navbar-nav .nav-link,
+.navbar-nav .nav-link.show {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
 }
-.calc-container{
-    width: 305px;
-    background-color: lightcoral;
-    border-radius: 20px;
-    padding: 30px;
+.navbar-nav .nav-link:hover {
+    color: #10C9C3;
+    font-family: 'Montserrat', sans-serif;
+}
+/*End navbar*/
 
+
+.active {
+    color: #10C9C3 !important;
 }
-.numBut{
-    height: 59px;
-    width: 59px;
-    margin: 10px 4px;
-    border: none !important; 
+#landingpage {
+    background-image: url("images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
+        top: 0px;
+        right: 0px;
+        bottom: 237px;
+      padding-bottom: 400px;
+        left: 0px;
+        background-size: cover;
 }
-.mathBut{
-    height: 59px;
-    width: 59px;
-    margin: 10px 4px;
-    border: none !important; 
+.btn-primary {
+    background-color: #10C9C3 !important;
+    border:#10C9C3 !important;
+    border-radius: 0 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
 }
-.equalBut{
-    height: 59px;
-    width: 126px;
-    margin: 10px 4px;
-    border: none !important; 
+.headingspace {
+    padding-top: 302px;
+}
+.introtext {
+    margin-right: 269px;
+}
+h1, h2 {
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.progress {
+    border-radius: 0 !important;
+    height: 5px !important;
+}
+.progress-bar {
+    background-color: #10C9C3 !important;
+}
+#statspage {
+    background-color: #10C9C3;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+h4 {
+    font-size: 12px !important;
+}
+
+.image1 {
+    background-image: url("images/Package Design Lemon Tea - fabian krotzer Frame.png");
+}
+.image2 {
+    background-image: url("images/Package Design Vanilla Powder - fabian krotzer Frame.png");
+}
+.image3 {
+    background-image: url("images/Package Design Coconut - fabian krotzer Frame.png");
+}
+.image4 {
+    background-image: url("images/Package Design Komaso - fabian krotzer Frame.png");
+}
+.image5 {
+    background-image: url("images/Package Design Spices - fabian krotzer Frame.png");
+}
+.image6 {
+    background-image: url("images/Package Design Salad - fabian krotzer Frame.png");
+}
+.image7 {
+    background-image: url("images/Package Design Olive Oil - fabian krotzer Frame.png");
+}
+.image8 {
+    background-image: url("images/Package Design Seaweed - fabian krotzer Frame.png");
+}
+
+.galleryimage {
+    height: 450px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.galleryimage > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ 
+    display: none;
+}
+.hoverImg {
+    margin:auto;
+    display: block;
+    height:100%;
+    width:48px;
+    object-fit:contain;
+}
+.galleryimage:hover > div {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.534)
+}
+
+.spacebar {
+    padding-top:100px;
+    background-color: #F5F5F5;
+}
+.quoteauthor {
+    font-size: 12px;
+}
+.quote {
+    font-size: 20px;
+}
+#quotepage {
+    background-color: #10C9C3;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#logospage {
+    background-color: #FFFFFF;
+}
+#formpage {
+    background-color: #F5F5F5;
+}
+input {
+    border-radius: 0px !important;
 }
